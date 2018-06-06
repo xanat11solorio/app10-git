@@ -362,13 +362,14 @@ function MM_preloadImages() { //v3.0
     </div>
     </div>
     
-    <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
-<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
-     <h1>¿QUÉ ES VISUAL BASIC?</h1>
-</div>
+     <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>¿QUÉ ES VISUAL BASIC</h1>
+    </div>
     <div data-role="content" >
     <div>
-     <!-- Start WOWSlider.com BODY section -->
+   
+     <p><!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
 		<li><img src="data1/images/vb2.jpg" alt="VB2" title="VB2" id="wows1_0"/></li>
@@ -405,10 +406,9 @@ function MM_preloadImages() { //v3.0
        </div>
        </div>
        
-     
-     <div data-role="collapsible" data-content-theme="false">
+       <div data-role="collapsible" data-content-theme="false">
 <h1>OBJETOS Y EVENTOS</h1>
-<div style="width:50%;">
+
      
    <div>
    <P>
@@ -431,7 +431,7 @@ Algunos eventos comunes definidos en Visual Basic son:<BR>
 <LI>MouseUp: se produce cuando el usuario suelta el botón del mouse.</LI>
 <LI>MouseMove: este evento ocurre mientras el usuario mueve o desplaza el puntero del mouse sobre un objeto.</LI><BR>
 Imagínese un auto como un objeto; el auto tiene diversas propiedades como color, modelo, etc. Algunas con solamente 2 posibles valores, como encendido y apagado, incluso otras que a simple vista no se ven, como podría ser la cantidad de gasolina. Para definir el color de este objeto Auto, según Visual Basic, se haría de la siguiente manera:<BR><BR>
-
+</ul>
 Auto.color = rojo<BR><BR>
 y para definirle un evento podría ser como el siguiente ejemplo:<BR><BR>
 
@@ -444,18 +444,12 @@ El siguiente fragmento de código muestra un cuadro de mensaje, en una ventana, 
 Private Sub Form_Load()<BR><BR>
     MsgBox ("¡Hola, mundo!")<BR><BR>
 End Sub<BR>
-   </P>
-   </div>
-  </div>
-     <div data-role="collapsible" data-content-theme="false">
+   </P></div></div>
+   
+   <div data-role="collapsible" data-content-theme="false">
 <h1>AMBIENTE DE DESARROLLO</h1>
    <div>
-   <P>
-   Existe un único entorno de desarrollo para Visual Basic, desarrollado por Microsoft: Microsoft Visual Basic x.0, correspondientes a versiones desde la 2.0 hasta la 20.0, (con respectivas diferencias entre versiones del lenguaje).<BR>
-
-El entorno de desarrollo es muy similar al de otros lenguajes. Realizando una instalación típica del producto, las características básicas se presentan de la siguiente forma:<BR>
-
-En la parte superior aparecen tres elementos, en este orden: la barra de título donde figura el nombre del proyecto en curso y su estado (diseño o ejecución); la barra de menú con 13 opciones desplegables y una barra de herramientas; esta última se puede personalizar, posibilitando la inclusión de prácticamente la totalidad de los comandos del IDE.<BR>
+   <P>En la parte superior aparecen tres elementos, en este orden: la barra de título donde figura el nombre del proyecto en curso y su estado (diseño o ejecución); la barra de menú con 13 opciones desplegables y una barra de herramientas; esta última se puede personalizar, posibilitando la inclusión de prácticamente la totalidad de los comandos del IDE.<BR>
 En la parte central, cubriendo la franja de mayor área, se encuentra el espacio de trabajo. Este incluye y muestra las ventanas del proyecto, las vistas del código fuente de los módulos, los objetos y los controles que contienen las ventanas de la aplicación y el panel de controles.
 El panel de controles, que aunque es móvil normalmente está ubicado a la derecha, por defecto cuenta con los siguientes controles:<BR><BR>
 <UL type="disc">
@@ -480,7 +474,7 @@ El panel de controles, que aunque es móvil normalmente está ubicado a la derec
 <LI>Data: Conexión a origen de datos</LI>
 <LI>OLE: Contenedor de documentos embebidos compatibles con Object Linking and Embedding
 Además de los listados, se pueden agregar todo tipo de controles de terceros, y hay una gran cantidad de ellos que se proveen con el propio Visual Basic 6.0. Los controles vienen embebidos dentro de archivos con extensión OCX.
-Las ventanas de proyecto, aunque móviles, se encuentran en el panel lateral derecho y contienen dos vistas principales:</LI>
+Las ventanas de proyecto, aunque móviles, se encuentran en el panel lateral derecho y contienen dos vistas principales:</LI></UL>
 <BR>
 El Explorador de proyectos, que muestra todos los elementos que componen el proyecto o grupos de proyectos (formularios, interfaz de controles, módulos de código, módulos de clase, etc.)
 El Panel de propiedades, donde se muestran todos los atributos de los objetos, controles, formularios, información de módulos clase, entre muchos otros.<BR>
@@ -489,22 +483,20 @@ La Ventana inmediato, por defecto se encuentra en la parte inferior, aunque pued
 siendo el signo ? un reemplazo natural del comando Print en Basic, al ejecutar la sentencia se mostraría por pantalla el valor de la raíz cuadrada de 2. También se pueden usar variables del propio programa, o sentencias de código tales como:<BR><BR>
 Msgbox "Prueba de cuadro de mensaje de error.", vbCritical, "Título del mensaje"
 A la hora de la depuración puede ser útil para consultar el valor de variables del programa, o el código de error como:<BR><BR>
-? Err.Number
-   </P>
-   </div>
-  </div>
- </div>
-     </p>
-     
+? Err.Number</P></div></div>
+   
+       </p>
+   
      </div>
     </div>
-<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <div>
-    <img src="res/android/mdpi.png" width="60" height="60">
+     <img src="res/android/mdpi.png" width="60" height="60">
     </div>
     <h4>Aplicacion Diez, XJSC</h4>
     </div>
     </div>
+    
     
     <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
